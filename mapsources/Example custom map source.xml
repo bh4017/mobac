@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customMapSource>
+	<name>Custom OSM Mapnik</name>
+	<minZoom>0</minZoom>
+	<maxZoom>16</maxZoom>
+	<tileType>png</tileType>
+	<tileUpdate>IfNoneMatch</tileUpdate>
+	<url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+	<backgroundColor>#000000</backgroundColor>
+</customMapSource>

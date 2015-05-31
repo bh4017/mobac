@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customWmsMapSource>
+  <!-- Map source name as it appears in the map sources list.  Additionally used for the tile store name --> 
+  <name>TerraServer WMS</name>
+
+  <minZoom>12</minZoom>
+  <maxZoom>18</maxZoom>
+  
+  <!-- Tile format (PNG, JPG or GIF) -->
+  <tileType>JPG</tileType>
+
+  <!-- WMS version -->
+  <version>1.1.1</version>
+  
+  <!-- WMS layer parameter -->
+  <layers>DRG</layers>
+
+  <!-- WMS base URL -->
+  <url>http://terraserver-usa.com/ogcmap6.ashx?</url>
+
+  <!-- Currently only EPSG:4326 is supported --> 
+  <coordinatesystem>EPSG:4326</coordinatesystem>
+
+  <!-- 
+    Optional: Additional parameters appended to the WMS url. 
+    Because of ampersand characters it is recommended to wrap the data inside a <![CDATA[ ]]> element.
+    Otherwise you have to encode ever '&' character as &amp;
+  --> 
+  <aditionalparameters><![CDATA[&EXCEPTIONS=BLANK&Styles=]]></aditionalparameters>
+
+  <backgroundColor>#000000</backgroundColor>
+
+</customWmsMapSource>

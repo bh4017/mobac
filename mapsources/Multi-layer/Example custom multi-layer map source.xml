@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+This example shows a standard Mapnik map with hill shading 
+(hill shading only available in the region around Germany and Swiss).
+
+The hill shade is a semi-transparent layer which will be painted on 
+top of the OSM Mapnik layer.   
+
+--> 
+<customMultiLayerMapSource>
+    <name>Custom OSM Mapnik with Hills (Ger)</name>
+    <tileType>PNG</tileType>
+    <backgroundColor>#FFFFFF</backgroundColor>
+    <layers>
+    	<!-- 
+    	    Place as many custom map sources in here as you want.
+    	    The order you define here is the order the maps will be painted.
+    	    Therefore make sure all maps after the first use PNG and contain 
+    	    transparent regions. Otherwise the map sources before will not be visible.   
+    	-->
+        <customMapSource>
+            <name>Custom OSM Mapnik</name>
+            <minZoom>0</minZoom>
+            <maxZoom>18</maxZoom>
+            <tileUpdate>None</tileUpdate>
+            <url>http://tile.openstreetmap.org/{$z}/{$x}/{$y}.png</url>
+            
+            <!-- Optional: IgnoreErrors - change to true for maps where only some tiles exist -->
+            <ignoreErrors>false</ignoreErrors>
+            
+        </customMapSource>
+        <customMapSource>
+            <name>Custom transparent hillshade</name>
+            <minZoom>8</minZoom>
+            <maxZoom>18</maxZoom>
+            <tileUpdate>None</tileUpdate>
+            <url>http://www.wanderreitkarte.de/hills/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+        <!--
+        Also possible: Custom atlas as map source / locally generated tiles (see README.HTM) 
+        <localTileFiles>...</localTileFiles>
+        <localTileZip>...</localTileZip>
+        <localTileSQLite>..</localTileSQLite>
+        -->
+    </layers>
+</customMultiLayerMapSource>

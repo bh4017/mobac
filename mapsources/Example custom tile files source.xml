@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+Example custom map definition that uses an existing OSMTracker atlas. 
+Atlases that very similar to OSMTracker like AndNav,
+Maverick and OSMAND are also supported.
+
+Quad-key based map sources as they are created by MapCruncher are also supported.
+They can be selected via <sourceType> entry.  
+
+Supported file formats are PNG, JPG and GIF files.  
+
+This file work with MOBAC 1.9.3 and higher
+
+-->
+<localTileFiles>
+	
+	<!-- Map source name as it appears in the map sources list. --> 
+	<name>Custom map from tile files</name>
+	
+		
+	<!-- 
+	  Source type specifies the directory structure and file name
+	  inside the zip files (since MOBAC 1.9.3).
+	  
+	  Possible values: DIR_ZOOM_X_Y, DIR_ZOOM_Y_X or QUADKEY
+	  
+	  DIR_ZOOM_X_Y: directory structure "zoom/x/y.png"
+	   	Other file extensions like "jpg", "gif" or "png.andnav2", "jpg.xyz"
+	    are also supported.   
+	   
+	  DIR_ZOOM_Y_X: directory structure "zoom/y/x.png" "zoom/y/x.jpg"
+	   	Other file extensions like "jpg", "gif" or "png.andnav2", "jpg.xyz"
+	    are also supported.   
+	   
+	  QUADKEY: plain files with quad-key file name with extension: 
+	    regular expression for the file name: [0123]+\.(png|gif|jpg) 
+	  
+	-->
+	<sourceType>DIR_ZOOM_X_Y</sourceType>
+	
+	<!-- 
+	  Directory in which the existing atlas is located.
+	  The inner directory structure and file names are depending on the sourceType.
+	-->
+	<sourceFolder>D:\MOBAC\LocalTiles\OSMAND\TilesAtHome</sourceFolder>
+
+	<!--
+	Optional: supported since MOBAC 1.9.2 
+	If set to true it inverts the y coordinate so that it starts south (min=0) and increases 
+	towards north (max=2^zoom -1)
+	If not set or false default scheme is used: start north and increase towards south
+	<invertYCoordinate>true</invertYCoordinate>
+	-->
+		
+	<backgroundColor>#000000</backgroundColor>
+</localTileFiles>

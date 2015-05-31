@@ -1,0 +1,33 @@
+/**
+ OpenStreetMap Example
+**/
+
+name = "BS OSM TilesAtHome";
+
+tileType = "png"; // required; valid values: "jpg" "png" or "gif" 
+
+// Default size of each tile is 256x256 pixel
+tileSize = 256; // optional
+minZoom = 0;    // optional
+maxZoom = 22;   // optional
+tileUpdate = TileUpdate.IfModifiedSince; // optional
+backgroundColor = "#ffffff"; // optional - supported since MOBAC 1.9.1
+ignoreError = "True"; // optional since MOBAC 1.9.4
+
+/**
+ This method is called for each tile: input parameters for this script: "zoom", "x" and "y"
+**/
+String getTileUrl( int zoom, int x, int y ) {
+   return "http://tah.openstreetmap.org/Tiles/tile/" + zoom + "/" + x + "/" + y + ".png";    
+} 
+
+/**
+ This method is called also for each tile (implementation optional)
+ It allows to set HTTP headers like "Referer" or cookies the server 
+ wants to see.
+**/
+void addHeaders( java.net.HttpURLConnection conn) {
+  conn.addRequestProperty("Cookie","test=12345");
+  conn.addRequestProperty("Referer","http://www.openstreetmap.org");
+}
+

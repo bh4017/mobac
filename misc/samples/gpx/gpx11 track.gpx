@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MEDIA-TOURS"
+	version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+	<trk>
+		<name>gpx10 track</name>
+		<trkseg>
+			<trkpt lat="52.51470613497887" lon=" 13.349847793579102"></trkpt>
+			<trkpt lat="52.51642978796417" lon=" 13.377656936645508"></trkpt>
+			<trkpt lat="52.50945641163729" lon=" 13.376798629760742"></trkpt>
+			<trkpt lat="52.50681825421263" lon=" 13.368215560913086"></trkpt>
+			<trkpt lat="52.50734067419732" lon=" 13.390445709228516"></trkpt>
+			<trkpt lat="52.5197724373965" lon=" 13.402633666992188"></trkpt>
+			<trkpt lat="52.52948556883107" lon=" 13.37860107421875"></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

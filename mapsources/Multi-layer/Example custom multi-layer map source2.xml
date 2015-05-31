@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+This example shows combines the integrated map source "Mapnik" (display title 
+"OpenStreetMap Mapnik") with a transparent hill shading layer. 
+(hill shading only available in the region around Germany and Swiss).
+
+The hill shade is a semi-transparent layer which will be painted on 
+top of the OSM Mapnik layer.   
+
+--> 
+<customMultiLayerMapSource>
+    <name>Custom OSM Mapnik2 with Hills (Ger)</name>
+    <tileType>PNG</tileType>
+    <layers>
+    	<!-- 
+    	    Place as many custom map sources in here as you want.
+    	    The order you define here is the order the maps will be painted.
+    	    Therefore make sure all maps after the first use PNG and contain 
+    	    transparent regions. Otherwise the map sources before will not be visible.   
+    	-->
+        <mapSource>
+            <name>Mapnik</name>
+        </mapSource>
+        <customMapSource>
+            <name>Custom transparent hillshade</name>
+            <minZoom>8</minZoom>
+            <maxZoom>18</maxZoom>
+            <tileUpdate>None</tileUpdate>
+            <url>http://www.wanderreitkarte.de/hills/{$z}/{$x}/{$y}.png</url>
+        </customMapSource>
+    </layers>
+</customMultiLayerMapSource>

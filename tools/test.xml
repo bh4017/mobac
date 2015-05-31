@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExternalTool>
+    <name>Name shown in tools menu</name>
+    
+    <!-- Patch to the program to be executed including static parameters (map/MOBAC independent parameters) --> 
+    <command>cmd.exe /c start mybatch.cmd</command>
+    
+    <!-- 
+    parameters description: space separated list specifying containing the following elements.
+    The values will be appended as parameters to the command line upon execution. 
+    
+    MAX_LAT  - Maximum latitude (upper border) off the selected area
+    MIN_LAT  - Minimum latitude (lower border) off the selected area
+    MAX_LON  - Maximum longitude (right border) off the selected area
+    MIN_LON  - Minimum longitude (left border) off the selected area
+    MIN_ZOOM - minimum zoom of selected zoom levels check-boxes
+    MAX_ZOOM - maximum zoom of selected zoom levels check-boxes
+    MAPSOURCE_NAME - Currently select map source internal name (used in atlas profile xml file)
+    MAPSOURCE_DISPLAYNAME - Currently select map source display name (as shown in the GUI) 
+    NAME_EDITBOX - content of the edit box "Name" in the side panel "Atlas Content"
+    -->
+    <parameters>MAX_LAT MAX_LON MIN_LAT MIN_LON MIN_ZOOM MAX_ZOOM MAPSOURCE_NAME MAPSOURCE_DISPLAYNAME NAME_EDITBOX</parameters>
+    
+    <!-- if true: Show complete command line before execution -->
+    <debug>true</debug>
+</ExternalTool>

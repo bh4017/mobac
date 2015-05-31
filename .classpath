@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jai_core.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://download.java.net/media/jai/javadoc/1.1.3/jai-apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/jai_codec.jar"/>
+	<classpathentry kind="lib" path="lib/Tidy.jar"/>
+	<classpathentry kind="lib" path="lib/simmetrics_jar_v1_6_2_d07_02_07.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/je-3.3.93.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://download.oracle.com/berkeley-db/docs/je/3.3.62/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/itextpdf-5.1.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.7.15-M1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="lib" path="lib/webserver.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-codec-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/commons-io-2.0.jar"/>
+	<classpathentry kind="lib" path="lib/javapng-2.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://javapng.googlecode.com/svn/trunk/javapng2/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/mapsforge/kxml2-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/mapsforge/mapsforge-core-0.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mapsforge/mapsforge-map-0.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mapsforge/mapsforge-map-awt-0.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mapsforge/mapsforge-map-reader-0.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/mapsforge/svg-salamander-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

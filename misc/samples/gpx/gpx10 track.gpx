@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - http://www.gpsbabel.org"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/0"
+	xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+	<time>2009-09-04T13:44:53Z</time>
+	<bounds minlat="52.506818254" minlon="13.349847794" maxlat="52.529485569"
+		maxlon="13.402633667" />
+	<trk>
+		<name>gpx10 track</name>
+		<trkseg>
+			<trkpt lat="52.514706135" lon="13.349847794">
+			</trkpt>
+			<trkpt lat="52.516429788" lon="13.377656937">
+			</trkpt>
+			<trkpt lat="52.509456412" lon="13.376798630">
+			</trkpt>
+			<trkpt lat="52.506818254" lon="13.368215561">
+			</trkpt>
+			<trkpt lat="52.507340674" lon="13.390445709">
+			</trkpt>
+			<trkpt lat="52.519772437" lon="13.402633667">
+			</trkpt>
+			<trkpt lat="52.529485569" lon="13.378601074">
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

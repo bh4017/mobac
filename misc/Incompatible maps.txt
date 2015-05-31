@@ -1,0 +1,74 @@
+Ireland Map 
+	http://ims0.osiemaps.ie/website/publicviewer/main.aspx?id=&utype=&ecom=S1&user=
+	Reason: Wrong tile size (512x512)
+	
+Mapy.cz
+	http://www.mapy.cz/
+	Reason: Incompatible zoom levels
+	
+SwissGeo
+	http://www.swissgeo.ch/surf.php
+	Reason: Wrong tile size (400x400)
+
+Enrio.se
+	http://kartor.eniro.se/
+	Reason: Incompatible zoom levels
+
+OpenSeaMap: 
+	http://www.openseamap.org/
+	Reason: map is only an overlay to OSM Mapnik
+	
+Topo Schweiz 
+	www.gps-tracks.com 
+	Reason: Wrong tile size (200x200)
+	
+Topo Deutschland
+	www.gps-tracks.com
+	Reason: Wrong tile size (400x400)
+
+Topo Österreich
+	www.gps-tracks.com 
+	Reason: Wrong tile size (200x200)
+	
+Centrum.cz
+	http://amapy.centrum.cz
+	Reason: Wrong projection	 
+	
+Mapy.sk
+	http://mapy.atlas.sk
+	Reason: Wrong tile size (250x250)
+	
+Géoportail
+	http://www.geoportail.fr/5069711/visu2D/afficher-en-2d.htm
+	Reason: Incompatible zoom levels
+	
+Asplan Viak Internet AS
+	http://kart.kystverket.no/advanced_default.aspx?lang=eng
+	Reason: Unsupported projection: "Universal Transverse Mercator" (UTM)
+
+Japanese Topo Maps
+	http://watchizu.gsi.go.jp/watchizu.html?meshcode=49324455
+	Reason: Unsupported tile size (300x357)
+	
+ICC Catalunya
+	http://cygnus.icc.cat/mt10m/
+	http://cygnus.icc.cat/bt5m/
+	Reason: different projection (Plate Carrée projection based on Latitude / Longitude WGS 84)
+	
+Zumi Poland
+	http://mapy.zumi.pl/
+	Reson: Tile size 250x250
+	
+Hungarian Turistautak.hu
+	http://www.turistautak.hu/maps.php?id=magyarorszag&image=raster
+	Reson: Tile size 410x300
+
+Mapa Polski Targeo	
+	http://mapa.targeo.pl/
+	Reson: Tile size 200x200
+	
+ NASA World Wind
+ 	Reason: Incompatible projection, incompatible tile size (512x512)
+ 	
+ Mapplus.ch / Map+
+ 	Reason: License problem with swisstopo

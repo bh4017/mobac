@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+ version="1.1"
+creator="GPSBabel - http://www.gpsbabel.org"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.topografix.com/GPX/1/1"
+xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<time>2009-09-04T14:12:46Z</time>
+<bounds minlat="49.979487761" minlon="7.591552734" maxlat="52.529485569" maxlon="13.402633667"/>
+<wpt lat="52.514706135" lon="13.349847794">
+  <name>Route A - P1</name>
+  <cmt>Route A - P1</cmt>
+  <desc>Route A - P1</desc>
+</wpt>
+<wpt lat="52.516429788" lon="13.377656937">
+  <name>Route A - P2</name>
+  <cmt>Route A - P2</cmt>
+  <desc>Route A - P2</desc>
+</wpt>
+<wpt lat="52.509456412" lon="13.376798630">
+  <name>Route A - P3</name>
+  <cmt>Route A - P3</cmt>
+  <desc>Route A - P3</desc>
+</wpt>
+<wpt lat="52.506818254" lon="13.368215561">
+  <name>Route A - P4</name>
+  <cmt>Route A - P4</cmt>
+  <desc>Route A - P4</desc>
+</wpt>
+<wpt lat="52.507340674" lon="13.390445709">
+  <name>Route A - P5</name>
+  <cmt>Route A - P5</cmt>
+  <desc>Route A - P5</desc>
+</wpt>
+<wpt lat="52.519772437" lon="13.402633667">
+  <name>Route A - P6</name>
+  <cmt>Route A - P6</cmt>
+  <desc>Route A - P6</desc>
+</wpt>
+<wpt lat="52.529485569" lon="13.378601074">
+  <name>Route A - P7</name>
+  <cmt>Route A - P7</cmt>
+  <desc>Route A - P7</desc>
+</wpt>
+<wpt lat="50.134664322" lon="8.657226563">
+  <name>Route B - P1</name>
+  <cmt>Route B - P1</cmt>
+  <desc>Route B - P1</desc>
+</wpt>
+<wpt lat="50.457504020" lon="8.662719727">
+  <name>Route B - P2</name>
+  <cmt>Route B - P2</cmt>
+  <desc>Route B - P2</desc>
+</wpt>
+<wpt lat="50.369992583" lon="7.591552734">
+  <name>Route B - P3</name>
+  <cmt>Route B - P3</cmt>
+  <desc>Route B - P3</desc>
+</wpt>
+<wpt lat="49.979487761" lon="7.882690430">
+  <name>Route B - P4</name>
+  <cmt>Route B - P4</cmt>
+  <desc>Route B - P4</desc>
+</wpt>
+<wpt lat="50.131143155" lon="8.591308594">
+  <name>Route B - P5</name>
+  <cmt>Route B - P5</cmt>
+  <desc>Route B - P5</desc>
+</wpt>
+</gpx>

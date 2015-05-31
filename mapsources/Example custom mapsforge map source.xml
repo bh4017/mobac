@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapsforge>
+	<name>Custom Mapsforge</name>
+	
+	<!-- optional -->
+	<minZoom>0</minZoom> 
+	
+	<!-- optional -->
+	<maxZoom>20</maxZoom> 
+	    
+	<!-- file name -->
+	<mapFile>mapsforge-test.map</mapFile>
+	
+	<!-- optional default OSMARENDERER Theme -->
+	<!-- <xmlRenderTheme>mytheme.xml</xmlRenderTheme> -->
+	
+	<transparent>false</transparent>
+	
+	<!-- text size scale factor -->
+	<textScale>1.0</textScale>
+	
+</mapsforge>

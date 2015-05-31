@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+Example custom map definition that uses an existing SQLite based atlas. 
+
+Supported atlas formats are RMaps, MBTiles, BigPlanetTracks, NaviComputer and OSMAND.
+
+Not supported are: OruxMaps and Osmdroid
+-->
+<localTileSQLite>
+	
+	<!-- Map source name as it appears in the map sources list. --> 
+	<name>Custom SQLite atlas</name>
+	
+	<!-- File path to SQLite atlas file --> 
+	<sourceFile>D:\MOBAC\LocalTiles\Region.Mapnik.sqlitedb</sourceFile>
+	
+	<!-- 
+       The atlas type has to be specified manually
+       
+	   Possible values: RMaps, MBTiles, BigPlanetTracks, NaviComputer or OSMAND
+	   
+	   Not that this field is case sensitive! 
+	-->
+	<atlasType>OSMAND</atlasType>
+		
+	<backgroundColor>#000000</backgroundColor>
+	
+	<!-- 
+	optional: Specify the image type: PNG JPG or GIF (supported since MOBAC 1.9.1)
+	By default this value is detected automatically if not specified.  
+	-->
+	<!-- <tileImageType>PNG</tileImageType> -->
+</localTileSQLite>

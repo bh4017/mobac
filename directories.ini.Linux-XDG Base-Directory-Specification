@@ -1,0 +1,36 @@
+#######################################################################
+# MOBAC system wide directory configuration                           #
+# for a Linux/Unix distribution compliant with                        #
+# XDG Base Directory Specification v0.7                               #
+# http://standards.freedesktop.org/basedir-spec/basedir-spec-0.7.html #
+#######################################################################
+#                                                                     #
+# Required environment variables:                                     #
+#   $XDG_CONFIG_HOME - usually $HOME/.config                          #
+#   $XDG_CACHE_HOME  - usually $HOME/.cache                           #
+#                                                                     #
+#######################################################################
+#                                                                     #
+# Rename this file to "directories.ini" and place it in the same      #
+# directory as the file Mobile-Atlas_Creator.jar                      #
+#                                                                     #
+#######################################################################
+
+# Directory where to save settings.xml and search for log4j.xml
+mobac.usersettingsdir=${XDG_CONFIG_HOME}/mobac
+
+# Directory where to save and load atlas profiles
+mobac.atlasprofilesdir=${XDG_CONFIG_HOME}/mobac
+
+# Directory where to search "map packs", custom maps and beanShell map sources
+# Updated map packs are also saved into this directory overwriting old ones
+mobac.mapsourcesdir=${XDG_CONFIG_HOME}/mobac/mapsources
+
+# Directory where to create the cache databases of downloaded tiles
+mobac.tilestoredir=${XDG_CACHE_HOME}/mobac/tilestore
+
+# Directory where to save config files for executing external tools from within MOBAC
+mobac.toolsdir=${XDG_CACHE_HOME}/mobac/tools
+
+# Directory where to create the temporary download container
+# mobac.tmpdir=${TMP}/mobac

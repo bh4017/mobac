@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+This example shows how to specify alpha transparency for different map layers.
+
+Using this maps you can see three layers:
+
+The background color (#ff0000 = red) covered by a Mapnik layer (80% alpha value)
+covered by a MapQuest layer with 50% transparency.
+
+Note that this is only an example, usually the first layer should use 1.0 = 100% 
+opacity alpha value.
+
+--> 
+<customMultiLayerMapSource>
+    <name>Custom Multi-Layer Alpha Example</name>
+    <tileType>PNG</tileType>
+	<backgroundColor>#ff0000</backgroundColor>
+	<layersAlpha>0.8 0.5</layersAlpha>
+    <layers>
+    	<!-- 
+    	    Place as many custom map sources in here as you want.
+    	    The order you define here is the order the maps will be painted.
+    	    Therefore make sure all maps after the first use PNG and contain 
+    	    transparent regions. Otherwise the map sources before will not be visible.   
+    	-->
+        <mapSource>
+            <name>Mapnik</name>
+        </mapSource>
+        <mapSource>
+            <name>MapQuest</name>
+        </mapSource>
+    </layers>
+</customMultiLayerMapSource>
